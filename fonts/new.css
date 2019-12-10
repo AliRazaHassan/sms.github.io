@@ -1,0 +1,426 @@
+@import ('href="https://fonts.googleapis.com/css?family=Open+Sans">');
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: 'Open Sans',sans-serif;
+}
+.banner{
+    background:url(
+   images/drop-of-water-3671613_1920.jpg)no-repeat center fixed;
+    height: 100vh;
+    background-size: cover;
+    
+}header{
+    padding: 5px 20px 0px;
+    display: inline-block;
+    background-color:rgba(253,253,253,.6);
+    width: 100%;
+    
+}.left{
+    
+float: right;
+    background-color:transparent;
+
+}.search1s{
+    
+    
+    border:1px solid black;
+    height: 40px;
+}.button1{
+    background-color: black;
+    height: 50px;
+    color: white;
+    width: 140px;
+    border: 1px solid black;
+    
+}.hat{
+    background-color: transparent;
+    text-transform: uppercase;
+    display: inline-block;
+}.navbar{
+    padding: 0px;
+}.navbar1{
+    background-color:transparent;
+}.navbar-nav li a{
+    font-size: 17px;
+    padding: 15px 60px;!important
+
+}.navbar-nav li a:hover{
+    border-right: 3px solid gray;
+    border-left: 3px solid gray;
+    transition: .5s all;
+    
+    
+}
+.navbar-nav li{
+    padding: 1px 60px;
+}.card-group{
+    
+    
+    width: 60%;
+  
+    margin-left: 360;
+    margin-top:90;
+    background-color: rgba(225,225,225,.6);
+    
+    
+}.about{
+    text-align: center;
+    width:100%;
+    
+}.about h2{
+    margin-top: 70;
+    
+}
+.crl1{
+    background-color: #ff4f81;
+    
+}
+.crl2{
+    background-color: gray;
+    
+}
+.crl3{
+    background-color: deepskyblue
+}
+.about_grid{
+text-align: center;
+    transition: .5s all;
+    -webkit-transition: .5s all;
+    -moz-transition: .5s all;
+}
+.about p{
+    margin-top: 20;
+}
+.about_grid i{
+    margin-top:10%;
+    font-size: 60px;
+    margin-bottom: -34;
+}.about_grid i:hover{
+    color:floralwhite;
+}.about_grid p{
+    color: floralwhite;
+    text-transform: capitalize;
+}.about_grid button{
+
+    background-color:rgba(225,225,225,.7);
+    height: 40;
+    width: 130px;
+    border-radius: 7px;
+    font-size: 18;
+}.crl5{
+    margin-top:30px;
+    text-align: center;
+    color: floralwhite;
+    background-color: black;
+    height: 120%;
+    
+}
+.crl5 h1{
+    letter-spacing: 13px;
+    margin-top: 40px;
+    margin-bottom: 23;
+    
+    
+}.crl5 h3{
+    letter-spacing: 3px;
+    color: red;
+    margin-bottom: 19;
+}
+.crl5 p{
+    text-align:center;
+    
+}.crl9{
+    background-color: aliceblue;
+}
+.crl7{
+    margin-top: 23;
+  
+}
+.crl7 h5{
+    color: gray;
+    font-size: 29;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+}
+.card-body{
+    background-color: rgb(1, 17, 45,.6)
+}.crl8{
+    background-color: rgb(1, 17, 45,.9);
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color:
+#091528;
+
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+.modal{
+width: 700;
+    height: 700;
+}.modal-header{
+    text-align: center;
+    margin-right: 290px;
+    font-size: 24;
+    font-weight:600;
+}.modal-header i{
+    text-align: center;
+    font-size: 30px;
+    margin-left: 222;
+}
+.modal-header span{
+    text-align: center;
+    color:red;
+
+}.modal{
+    margin-left: 400;
+    margin-top: 130
+}
+.galerry{
+    margin-top: 40px;
+    
+}
+.galerry h1{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    padding-top:  -top: 50;
+  padding-bottom: 40;
+    text-align: center;
+    
+    
+}.gallery-grid{
+    padding: 5px 15px 2px 2px;
+    
+    
+    
+}.gallery-grid img{
+    padding: 0px;
+}
+
+
+.lecture{
+    background-color: black;
+    margin-top: 50px;
+ width: 100%;
+    max-height: 100%;
+}.conatiner{
+    
+}
+    
+.crl12{
+    margin-left: -2;
+    text-align: center;
+overflow: hidden;
+    width: 100%;
+}.crl33 img{
+height: 280;    
+}
+.crl33{
+    padding:14px ;
+    background-color: black !important;
+}.crl33:hover{
+}
+
+.pic{
+    background-color:rgba(225,225,226,.9);
+    opacity: .8;
+    width:249;
+    height: 25;
+    text-align: center;
+    margin-left: -20;
+    margin-top: -45;
+    visibility: hidden;
+    
+}
+.pic ul li a:hover{
+    visibility:visible;
+    transition: .5s all;
+}
+.pic ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0 12 0 15 ;
+    text-align: center;
+
+}
+.pic ul li a{
+text-decoration: none;
+    color: darkblue;
+    position: relative;
+    left: -33;
+    color: dimgray;
+}.card{
+    background-color: black;
+}
+.contact{
+    background:url("images/thomas-and-friends-2435542_1920.jpg")no-repeat center fixed;
+    width: 100%;
+    
+}.crl0{
+    margin-top: 20px;
+    margin-left: 80;
+    color: black;
+    background-color: transparent;
+}.fine{
+    margin-top:30px;
+    background-color: transparent;
+    height: 50%;
+    
+}.form-control{
+   background-color: transparent!important;
+     border:2px solid !important;
+    border-bottom-color: gray!important;
+    border-bottom:10px;
+    border-top:none !important;
+    border-left: none !important;
+    border-left: none !important;
+     border-right: none !important;
+   
+}#inputPassword4{
+    height: 120px;
+    text-transform: capitalize;;
+}
+.crl35{
+    margin-top: 20px;
+background-color:
+gray !important;
+    width:250px !important;
+    height: 50;
+}.footer{
+    background-color: black;
+}.crl14 h1{
+    color: gray;
+    text-transform: uppercase;
+    font-size: 22;
+    margin-top: 42;
+    margin-bottom: 10;
+    text-indent: 5px;
+}
+.crl14 p{
+    color: whitesmoke;
+    
+}.ali button{
+    font-size: 22.5px;
+    height: 30;
+    
+    background-color: gray;
+    width:60;
+    color: whitesmoke;
+    border: none;
+    position: relative;
+    top=1.5;
+}.raza{
+    width: 80%;
+}.crl13 h1{
+color:gray ; 
+    text-transform: uppercase;
+    margin-top:42;
+    margin-top: 40px;
+     font-size: 22;
+}
+.crl13 span{
+    color: whitesmoke;
+    text-transform: uppercase;
+    margin-bottom: 22;
+}
+.crl13 i{
+  
+    color: gray;
+    padding-right: 12;
+    font-size: 18;
+}.crl13{
+    line-height: 2.3;
+}.crl22{
+    border: 2px solid
+gray
+        ;
+    background-color: white;
+    margin-top: 12;
+}.crl22 h1{
+    margin-top: 42;
+    text-transform: uppercase;
+color:gray;
+    font-size: 22px;
+    text-align: center;
+}
+.wa{
+    font-size: 30;
+    text-align: center;
+    
+    text-align: center;
+    display: inline-flex;
+    margin-left: 100px;
+    margin-top: 20px;
+
+    margin-bottom: 12px;
+    width:50%;
+    box-shadow: 5px;
+}.crl22 p{
+    text-indent: 2;
+    margin-top: 3px;
+}.sa{
+    
+    padding: 2px 23px 0px 10px;
+    border: 1px solid gray
+        ;
+    text-align: center;
+
+    
+}.sa a{
+    color:black;;
+}.modelimg img{
+  
+    height: 20%;
+border: 2px solid black;
+    margin-left: 20px;
+    
+}
+.co{
+    margin-top: -120px;
+    
+}.co button{
+    width:100%;
+    background-color: black;
+    color: whitesmoke;
+}
+.crl43{
+ position: relative;
+    width: 1000px;
+    margin: 150px auto 0;
+    height: auto;
+    display: grid;
+    grid-template-columns: 440px;
+}
+.crl57 h1{ 
+    margin-top:40px;
+}.crl432 button{
+    background-color: black;
+    color: white;
+    border: none;
+      height: 43px;
+    margin: 5 5 5 5px;
+
+}.crl42 button{
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+    height: 43px;
+    
+}.crl00 button{
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    margin: 5 5 5 5px;
+      height: 43px;
+}

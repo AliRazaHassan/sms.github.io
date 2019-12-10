@@ -1,0 +1,48 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>
+    dollor convertion</title>
+    <script>
+        function dollor()
+        {
+            var a= document.first.rs.value;
+        var b=document.getElementById("new").value;
+            if(b=="Dollor")
+            {
+                var c=a/130;
+                document.getElementById("dollor1").value=c;
+            }else if(b=="Euro")
+            {
+                var c=a/151;
+                document.getElementById("dollor1").value=c;
+            }else if(b=="Pond")
+            {
+                var c=a/173;
+                document.getElementById("dollor1").value=c;
+            }
+            else if(b=="Riyal")
+            {
+                var c=a/30;
+                document.getElementById("dollor1").value=c;
+            }
+            
+        }
+    </script>
+</head>
+
+<body>
+    <form action="" name="first">
+    <span> Ruppees in Rs</span> <input type="text" name="rs" id="hassan">
+    <select name="select" id="new">
+        <option value="Dollor" selected>Dollor</option>
+        <option value="Riyal"> riyal</option>
+         <option value="Euro">Euro</option>
+        <option value="Pond"> Pond</option>
+        
+    </select>
+    <input type="button" value="Convert" onclick="dollor()">
+    </form>
+    <span> Currency in </span> <input type="text" id="dollor1" class="textview">
+</body>
+</html>

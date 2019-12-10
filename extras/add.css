@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.crl21 h1{
+    margin-top: 50px;
+
+}
+.main input{
+    width:40;
+    height: 40;
+}
+.textview{
+    width:100%;
+}.crl12{
+    margin-top: 20px;
+}
+.crl31{
+    margin-left: 250px !important;
+ margin-top: 25px !important;}
+.crl123{
+    margin-left: 20px;
+   
+}
+#inlineFormInputName2{
+    height: 35px;
+    width: 100%;
+    margin-right:30px;
+}
+.crl11{
+    margin-top: 60px;
+}

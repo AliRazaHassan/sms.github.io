@@ -1,0 +1,25 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="js/jquery.min.js">
+</head>
+<body>
+    <div class="conatiner">
+        <div id="Hassan"> This is going to be change Just Look and Watch </div>
+        <button class="btn btn-success" id="change">Onclick</button>
+        
+    </div>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('#change').click(function(){
+                $('#Hassan').load(hi.html,function(){
+                    alert("close your eyes ");
+                })
+                
+            })
+        })
+    </script>
+</body>
+</html>

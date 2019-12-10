@@ -1,0 +1,44 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script>
+      
+        function background(x)
+        {
+            if(x=="purple"){
+                 document.getElementById("ali").style.backgroundColor="purple";
+            }
+            else if(x=="blue")
+                {
+                     document.getElementById("ali").style.backgroundColor="blue";
+                }
+             else if(x=="yellow"){ document.getElementById("ali").style.backgroundColor="yellow";}
+            else{
+                background.getElementById("ali").style.backgroundColor="default";
+            }
+        }
+        
+    </script>
+</head>
+<body id="ali">
+    <form name="first">
+        <input type="radio" value="blue"; onclick="background(value);" name="hassan">blue <br>
+        <input type="radio" value="purple" onclick="background(value);" name="hassan">purple <br>
+        <input type="radio" value="yellow" onclick="background(value);" name="hassan">yellow <br>
+    </form>
+    <form action="
+        
+    " name="secound">
+        <span> Currency in Rs</span> <input type="text" name="currency">
+        
+        <br>
+        <input type="radio" name="same" value="Usa"> Dollor<br>
+         <input type="radio" name="same" value="Usa"> Euro<br>
+          <input type="radio" name="same" value="Usa"> Reyal<br>
+           <input type="radio" name="same" value="Usa"> Dinar<br>
+           <p id="output"></p>
+    </form>
+    
+</body>
+</html>

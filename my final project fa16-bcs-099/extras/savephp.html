@@ -1,0 +1,38 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>php save</title>
+</head>
+<body>
+    <?php
+ $name=$_POST['name'];
+$password=$_POST['password'];
+ $Father_Name=$_POST['fathername'];
+ $rollno=$_POST['rollno'];
+$addess=$_POST['address'];
+$type='Student';
+$email=$_POST['email'];
+$dob=$_POST['dob'];
+$class=$_POST['Class'];
+
+if(isset($_POST['submit'])){
+$imagename=$_FILES['images']['name'];
+$temp_name=$_FILES['images']['tmp_name'];
+     $connect=mysqli_connect('localhost','root','','imges');
+    move_uploaded_file($temp_name,"images/$imagename");
+    $sql= sprintf("INSERT INTO profiles(Name,F_Name, Images,Type, Email,Password,Address,date of birth,Roll no,class) VALUES ('%s','%s','%s','%s','%s','%s','%s','%s','%s','%s')",mysqli_real_escape_string($connect,$name),mysqli_real_escape_string($connect,$Father_Name),mysqli_real_escape_string($connect, $imagename),mysqli_real_escape_string($connect,$type) mysqli_real_escape_string($connect, $email),mysqli_real_escape_string($connect,$password),mysqli_real_escape_string($connect,$addess),mysqli_real_escape_string($connect,$dob),mysqli_real_escape_string($connect,$rollno),mysqli_real_escape_string($connect,$class));
+    $run=mysqli_query($connect,$sql);
+    if(run){
+        echo"data inserted succefuly";
+    }
+    else{
+        echo" data not inserted error genrated";
+    }
+    
+}
+    
+    
+    
+?>
+</body>
+</html>

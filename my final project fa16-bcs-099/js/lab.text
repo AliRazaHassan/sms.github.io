@@ -1,0 +1,60 @@
+Node:
+
+Topic:
+messages:
+any data 
+services:
+action:
+Parameter:
+publisher:
+subscribe:
+ros:
+roscore 
+
+rosnode list:
+workspace:
+ mkdir bcswork
+cd bcswork/
+bscwork mkdir src
+bcswork$ ls
+catkin-make
+bcswork/src ls
+bcswork/src$ catkin_create_pkg bakht
+
+
+
+rostopic list
+python code:
+#!/use/bin/env python
+import rospy
+from std_msgs.msg import String
+if__name=='__main__':
+pospy.init_node('ali')
+pub=rospy.publisher('chat',string,queue_size=1)
+rate=rospy.rate(1)
+while not rospy.is_shutdown();
+	pub.publish('hello')
+
+
+new:
+chmod +x src/bakht/script/talker.py
+code ko stop krny k lye:ctrl+c;
+
+code1:
+python code1:
+#!/use/bin/env python
+import rospy
+from std_msgs.msg import String
+def milgya(data):
+pospy.loginfo(data.data)
+if__name=='__main__':
+pospy.init_node('Aslam')
+rospy.subscriber('chat',string,milgya)
+rospy.spin()
+
+
+
+
+
+online src for learning:
+ros.org/tutorilas

@@ -1,0 +1,36 @@
+
+*{
+ margin: 0;
+    padding: 0;
+}
+
+.crl12{
+    box-sizing: border-box;
+    background-color:rgba(0,0,0,.8);
+    width: 35%;
+    margin-top:40px;
+    color:white;
+    height: 50%;
+    margin-left: 0;
+    
+}
+
+    
+
+#as{
+    text-align: center;
+    margin-left: 121px;
+}.crl123{
+    width: 100%;
+    margin-top:40px;
+    color:white;
+    height: 50%;
+    text-align: center;
+    margin-left:450px;
+   margin-top: -250px;
+    box-sizing: border-box;
+    background-color: rgba(0,0,0,.8);
+height: 100%;
+    
+}
+
